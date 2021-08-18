@@ -1,0 +1,24 @@
+.faq-title-content{
+    border-left: 8px solid $secondary;
+    padding-left: 16px;
+    @include pad{
+        border-left: 4px solid $secondary;
+    }
+}
+.faq-answer{
+    width: 82%;
+    padding-left: 8%;
+    @include pad{
+        width: 100%;
+        span{
+            display: block;
+        }
+    }
+    @include mobile{
+        display: inline;
+        padding-left: 0;
+        span{
+            padding: 20px 0px;
+        }
+    }
+}

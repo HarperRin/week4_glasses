@@ -1,0 +1,10 @@
+// pagination
+.page{
+    &-link{
+        border: 1px solid $redgray-500;
+        &.active ,&:hover{
+            background: $black;
+            color: $white;
+        }
+    }
+}

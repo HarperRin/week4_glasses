@@ -1,0 +1,137 @@
+// nav-start
+.productnav{
+    &-item{
+        width: calc(100% / 3);
+        border: 1px solid $redgray-200;
+    }
+    &-link{
+        &.active{
+            border-bottom: 8px solid $primary;
+        }
+        &:hover{
+            border-bottom: 8px solid $primary;
+        }      
+    }
+    &-icon{
+        width: 48px;
+    }
+    @include pad{
+        &-icon{
+            width: 32px;
+        }
+    }
+    @include mobile{
+        &-link{
+            &.active{
+                border-bottom: 4px solid $primary;
+            }
+            &:hover{
+                border-bottom: 4px solid $primary;
+            }      
+        }
+        &-icon{
+            width: 16px;
+        }
+    }
+}
+// banner
+.productoptional, .productsunglasses{
+    &-banner{
+        width: calc(100% / 2);
+        height: 304px;
+        object-fit: cover;
+        @include mobile{
+            height: 148px;
+        }
+    }
+}
+// content
+.productop, .productsg{
+    &-title{
+        font-size: 42px;
+    }
+    &-color{
+        &-item{
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+        }
+    }
+    @include pad{
+        &-title{
+            font-size: 32px;
+        }
+    }
+    @include mobile{
+        &-title{
+            font-size: 20px;
+        }
+        &-color{
+            &-item{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
+// optional
+.productop{
+    &-item{
+        width: 23%;
+    }
+    &-pic{
+        width: 100%;
+        object-fit: cover;
+        height: 164px;
+    }
+    @include pad{
+        &-item{
+            width: 48%;
+            &-11, &-12{
+                display: none;
+            }
+        }
+    }
+    @include mobile{
+        &-item{
+            width: 100%;
+            &-4, &-5, &-6, &-7, &-8, &-9, &-10, &-11, &-12{
+                display: none;
+            }
+        }
+        &-pic{
+            height: 166px;
+        }
+    }
+}
+// sunglasses
+.productsg{
+    &-item{
+        width: 31%;
+    }
+    &-pic{
+        width: 100%;
+        object-fit: cover;
+        height: 224px;
+    }
+    @include pad{
+        &-item{
+            width: 48%;
+        }
+        &-pic{
+            height: 264px;
+        }
+    }
+    @include mobile{
+        &-item{
+            width: 100%;
+            &-4, &-5, &-6{
+                display: none;
+            }
+        }
+        &-pic{
+            height: 166px;
+        }
+    }
+}
+

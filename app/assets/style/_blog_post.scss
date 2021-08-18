@@ -1,0 +1,71 @@
+// nav
+.blog{
+    @include mobile{
+        &nav-post-search{
+            display: none;
+        }
+    }
+}
+// breadcrumbs
+.breadcrumbs-item:not(:last-child){
+    .breadcrumbs-link::after{
+        content: '/';
+        margin: 0 4px;
+    }
+}
+// post content
+.post{
+    &-article-content{
+        opacity: 60%;
+        span{
+            display: block;
+        }
+    }
+    &-article{
+        width: 75%;
+    }
+    .hashtag{
+        width: 22%;
+    }
+    @include pad{
+        .hashtag{
+            width: 20%;
+            &-icon{
+                width: 24px;
+                margin-right: 0;
+            }
+        }
+        &-share-link{
+            width: 20px;
+        }
+    }
+    @include mobile{
+        &-content{
+            flex-direction: column;
+        }
+        &-title{
+            padding-bottom: 0;
+        }
+        &-control-icon{
+            margin-right: 0;
+        }
+        &-article{
+            width: 100%;
+        }
+        &-article-content{
+            span{
+                display: inline;
+            }
+        }
+        &-control{
+            display: block;
+        }
+        &-forward{
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+        .hashtag{
+            width: 100%;
+        }
+    }
+}

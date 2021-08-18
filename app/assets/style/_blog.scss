@@ -1,0 +1,56 @@
+// title
+.blog{
+    &-title{
+        border-left: 8px solid $secondary;
+        padding-left: 16px;
+        @include pad{
+            border-left: 4px solid $secondary;
+        }
+    }
+}
+// blog content
+.blog{
+    &-pic{
+        width: 52%;
+        height: 400px;
+        object-fit: cover;
+    }
+    &-post-content{
+        width: 44%;
+    }
+    &-post-pdlink{
+        display: none;
+    }
+    &-post-date{
+        opacity: 70%;
+    }
+    @include pad{
+        &-pic{
+            width: 48%;
+            height: 208px;
+        }
+        &-post-content{
+            width: 47%;
+        }
+        &-post-text,&-post-pclink{
+            display: none;
+        }
+        &-post-pdlink{
+            display: inline-block;
+        }
+    }
+    @include mobile{
+        &nav, &-post-article{
+            display: none;
+        }
+        &-post-item{
+            flex-direction: column;
+        }
+        &-pic , &-post-content{
+            width: 100%;
+        }
+        &-post-info{
+            margin: 0;
+        }
+    }
+}

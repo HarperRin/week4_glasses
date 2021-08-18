@@ -1,0 +1,67 @@
+// color
+$primary:#AA0601;
+$primary-light:#FBF2F2;
+$primary-dark:#650300;
+$secondary:#9F1213;
+
+$black:#000000;
+$white:#FFFFFF;
+
+$bluegray-100:#DEE2E6;
+$bluegray-200:#CED4DA;
+$bluegray-300:#495057;
+$bluegray-400:#373A3C;
+$bluegray-500:#212529;
+
+$redgray-100:#F2F2F2;
+$redgray-200:#DCDCDC;
+$redgray-300:#707070;
+$redgray-400:#6C6C6C;
+$redgray-500:#555555;
+$redgray-600:#0A0A0A;
+
+$brown-100:#B75929;
+$brown-200:#5F3E2D;
+
+// typography
+// font-family
+$font-roboto: 'Roboto', sans-serif;
+$font-noto: 'Noto Sans TC', sans-serif;
+
+// font-size
+$font-size-base: 16px;
+$fz-sm: $font-size-base * 0.875; //14px
+$fz-lg: $font-size-base * 1.125; //18px
+$fz-xl: $font-size-base * 1.25; //20px
+$fz-2xl: $font-size-base * 1.5; //24px
+$fz-3xl: $font-size-base * 1.75; //28px
+$fz-4xl: $font-size-base * 2; //32px
+$fz-5xl: $font-size-base * 2.25; //36px
+$fz-6xl: $font-size-base * 3; //48px
+$fz-7xl: $font-size-base * 4; //64px
+$fz-8xl: $font-size-base * 4.5; //72px
+
+// space
+$space-base: 16px;
+$space-1: $space-base * 0.25; //4px
+$space-2: $space-base * 0.5; //8px
+$space-3: $space-base * 0.625; //10px
+$space-4: $space-base * 0.75; //12px
+$space-5: $space-base * 0.875; //14px
+$space-6: $space-base;
+$space-7: $space-base * 1.25; //20px
+$space-8: $space-base * 1.5; //24px
+$space-9: $space-base * 1.75; //28px
+$space-10: $space-base * 1.875; //30px
+$space-11: $space-base * 2; //32px
+$space-12: $space-base * 2.25; //36px
+$space-13: $space-base * 2.5; //40px
+$space-14: $space-base * 3.5; //56px
+$space-15: $space-base * 3.75; //60px
+$space-16: $space-base * 4; //64px
+$space-17: $space-base * 4.5; //72px
+$space-18: $space-base * 5; //80px
+$space-19: $space-base * 5.5; //88px
+$space-20: $space-base * 6; //96px
+$space-21: $space-base * 6.5; //104px
+$space-22: $space-base * 10; //160px

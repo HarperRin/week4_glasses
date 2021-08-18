@@ -1,0 +1,2015 @@
+// color
+// text color
+.text{
+    &-primary{
+        color: $primary;
+    }
+    &-primary-light{
+        color: $primary-light;
+    }
+    &-primary-dark{
+        color: $primary-dark;
+    }
+    &-secondary{
+        color: $secondary;
+    }
+    &-black{
+        color: $black;
+    }
+    &-white{
+        color: $white;
+    }
+    &-bluegray-100{
+        color: $bluegray-100;
+    }
+    &-bluegray-200{
+        color: $bluegray-200;
+    }
+    &-bluegray-300{
+        color: $bluegray-300;
+    }
+    &-bluegray-400{
+        color: $bluegray-400;
+    }
+    &-bluegray-500{
+        color: $bluegray-500;
+    }
+    &-redgray-100{
+        color: $redgray-100;
+    }
+    &-redgray-200{
+        color: $redgray-200;
+    }
+    &-redgray-300{
+        color: $redgray-300;
+    }
+    &-redgray-400{
+        color: $redgray-400;
+    }
+    &-redgray-500{
+        color: $redgray-500;
+    }
+    &-redgray-600{
+        color: $redgray-600;
+    }
+}
+// bg color
+.bg{
+    &-primary{
+        background-color: $primary;
+    }
+    &-primary-light{
+        background-color: $primary-light;
+    }
+    &-primary-dark{
+        background-color: $primary-dark;
+    }
+    &-secondary{
+        background-color: $secondary;
+    }
+    &-black{
+        background-color: $black;
+    }
+    &-white{
+        background-color: $white;
+    }
+    &-bluegray-100{
+        background-color: $bluegray-100;
+    }
+    &-bluegray-200{
+        background-color: $bluegray-200;
+    }
+    &-bluegray-300{
+        background-color: $bluegray-300;
+    }
+    &-bluegray-400{
+        background-color: $bluegray-400;
+    }
+    &-bluegray-500{
+        background-color: $bluegray-500;
+    }
+    &-redgray-100{
+        background-color: $redgray-100;
+    }
+    &-redgray-200{
+        background-color: $redgray-200;
+    }
+    &-redgray-300{
+        background-color: $redgray-300;
+    }
+    &-redgray-400{
+        background-color: $redgray-400;
+    }
+    &-redgray-500{
+        background-color: $redgray-500;
+    }
+    &-redgray-600{
+        background-color: $redgray-600;
+    }
+    &-brown-100{
+        background-color: $brown-100;
+    }
+    &-brown-200{
+        background-color: $brown-200;
+    }
+}
+// border color
+.border{
+    &-secondary{
+        color: $secondary;
+    }
+    &-black{
+        color: $black;
+    }
+    &-white{
+        color: $white;
+    }
+    &-bluegray-100{
+        color: $bluegray-100;
+    }
+    &-redgray-200{
+        color: $redgray-200;
+    }
+    &-redgray-300{
+        color: $redgray-300;
+    }
+}
+
+// border
+.border{
+    display: block;
+    border: 1px solid $black;
+    &-t{
+        border-width: 1px 0 0 0;
+        border-style: solid;
+    }
+    &-b{
+        border-width: 0 0 8px 0;
+        border-style: solid;
+    }
+}
+
+// link hover
+.link-hover-opacity{
+    &:hover{
+        opacity: 0.5;
+    } 
+}
+
+// typography
+// font-family
+.font-roboto{
+    font-family: $font-roboto;
+}
+.font-noto{
+    font-family: $font-noto;
+}
+
+// font-size
+.text{
+    &-sm{
+        font-size: $fz-sm;
+    }
+    &-base{
+        font-size: $font-size-base;
+    }
+    &-lg{
+        font-size: $fz-lg;
+    }
+    &-xl{
+        font-size: $fz-xl;
+    }
+    &-2xl{
+        font-size: $fz-2xl;
+    }
+    &-3xl{
+        font-size: $fz-3xl;
+    }
+    &-4xl{
+        font-size: $fz-4xl;
+    }
+    &-5xl{
+        font-size: $fz-5xl;
+    }
+    &-6xl{
+        font-size: $fz-6xl;
+    }
+    &-7xl{
+        font-size: $fz-7xl;
+    }
+    &-8xl{
+        font-size: $fz-8xl;
+    }
+    @include pad{
+        &-md-sm{
+            font-size: $fz-sm;
+        }
+        &-md-base{
+            font-size: $font-size-base;
+        }
+        &-md-lg{
+            font-size: $fz-lg;
+        }
+        &-md-xl{
+            font-size: $fz-xl;
+        }
+        &-md-2xl{
+            font-size: $fz-2xl;
+        }
+        &-md-3xl{
+            font-size: $fz-3xl;
+        }
+        &-md-4xl{
+            font-size: $fz-4xl;
+        }
+        &-md-5xl{
+            font-size: $fz-5xl;
+        }
+        &-md-6xl{
+            font-size: $fz-6xl;
+        }
+        &-md-7xl{
+            font-size: $fz-7xl;
+        }
+        &-md-8xl{
+            font-size: $fz-8xl;
+        }
+    }
+    @include mobile{
+        &-sm-sm{
+            font-size: $fz-sm;
+        }
+        &-sm-base{
+            font-size: $font-size-base;
+        }
+        &-sm-lg{
+            font-size: $fz-lg;
+        }
+        &-sm-xl{
+            font-size: $fz-xl;
+        }
+        &-sm-2xl{
+            font-size: $fz-2xl;
+        }
+        &-sm-3xl{
+            font-size: $fz-3xl;
+        }
+        &-sm-4xl{
+            font-size: $fz-4xl;
+        }
+        &-sm-5xl{
+            font-size: $fz-5xl;
+        }
+        &-sm-6xl{
+            font-size: $fz-6xl;
+        }
+        &-sm-7xl{
+            font-size: $fz-7xl;
+        }
+        &-sm-8xl{
+            font-size: $fz-8xl;
+        }
+    }
+}
+
+// text align
+.text{
+    &-c{
+        text-align: center;
+    }
+    &-r{
+        text-align: right;
+    }
+}
+
+// font weight
+.font{
+    &-normal{
+        font-weight: normal;
+    }
+    &-medium{
+        font-weight: 500;
+    }
+    &-bold{
+        font-weight: 700;
+    }
+    &-black{
+        font-weight: 900;
+    }
+}
+
+// text style
+.italic{
+    font-style: italic;
+}
+
+// flex
+.d{
+    &-flex{
+        display: flex;
+    }
+    &-none{
+        display: none;
+    }
+    &-block{
+        display: block;
+    }
+}
+.flex{
+    &-row{
+        flex-direction: row;
+    }
+    &-row-reverse{
+        flex-direction: row-reverse;
+    }
+    &-column{
+        flex-direction: column;
+    }
+    &-column-reverse{
+        flex-direction: column-reverse;
+    }
+    &-nowrap{
+        flex-direction: nowrap;
+    }
+    &-wrap{
+        flex-wrap: wrap;
+    }
+    &-wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+}
+.justify{
+    &-end{
+        justify-content: flex-end;
+    }
+    &-center{
+        justify-content: center;
+    }
+    &-between{
+        justify-content: space-between;
+    }
+    &-around{
+        justify-content: space-around;
+    }
+    &-evenly{
+        justify-content: space-evenly;
+    }
+}
+.align-items{
+    &-start{
+        align-items: flex-start;
+    }
+    &-end{
+        align-items: flex-end;
+    }
+    &-center{
+        align-items: center;
+    }
+    &-baseline{
+        align-items: baseline;
+    }
+}
+
+// spacing
+// margin
+.mt{
+    // margin-top
+    &-1{
+        margin-top: $space-1;
+    }
+    &-2{
+        margin-top: $space-2;
+    }
+    &-3{
+        margin-top: $space-3;
+    }
+    &-4{
+        margin-top: $space-4;
+    }
+    &-5{
+        margin-top: $space-5;
+    }
+    &-6{
+        margin-top: $space-6;
+    }
+    &-7{
+        margin-top: $space-7;
+    }
+    &-8{
+        margin-top: $space-8;
+    }
+    &-9{
+        margin-top: $space-9;
+    }
+    &-10{
+        margin-top: $space-10;
+    }
+    &-11{
+        margin-top: $space-11;
+    }
+    &-12{
+        margin-top: $space-12;
+    }
+    &-13{
+        margin-top: $space-13;
+    }
+    &-14{
+        margin-top: $space-14;
+    }
+    &-15{
+        margin-top: $space-15;
+    }
+    &-16{
+        margin-top: $space-16;
+    }
+    &-17{
+        margin-top: $space-17;
+    }
+    &-18{
+        margin-top: $space-18;
+    }
+    &-19{
+        margin-top: $space-19;
+    }
+    &-20{
+        margin-top: $space-20;
+    }
+    &-21{
+        margin-top: $space-21;
+    }
+    &-22{
+        margin-top: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            margin-top: $space-1;
+        }
+        &-md-2{
+            margin-top: $space-2;
+        }
+        &-md-3{
+            margin-top: $space-3;
+        }
+        &-md-4{
+            margin-top: $space-4;
+        }
+        &-md-5{
+            margin-top: $space-5;
+        }
+        &-md-6{
+            margin-top: $space-6;
+        }
+        &-md-7{
+            margin-top: $space-7;
+        }
+        &-md-8{
+            margin-top: $space-8;
+        }
+        &-md-9{
+            margin-top: $space-9;
+        }
+        &-md-10{
+            margin-top: $space-10;
+        }
+        &-md-11{
+            margin-top: $space-11;
+        }
+        &-md-12{
+            margin-top: $space-12;
+        }
+        &-md-13{
+            margin-top: $space-13;
+        }
+        &-md-14{
+            margin-top: $space-14;
+        }
+        &-md-15{
+            margin-top: $space-15;
+        }
+        &-md-16{
+            margin-top: $space-16;
+        }
+        &-md-17{
+            margin-top: $space-17;
+        }
+        &-md-18{
+            margin-top: $space-18;
+        }
+        &-md-19{
+            margin-top: $space-19;
+        }
+        &-md-20{
+            margin-top: $space-20;
+        }
+        &-md-21{
+            margin-top: $space-21;
+        }
+        &-md-22{
+            margin-top: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            margin-top: $space-1;
+        }
+        &-sm-2{
+            margin-top: $space-2;
+        }
+        &-sm-3{
+            margin-top: $space-3;
+        }
+        &-sm-4{
+            margin-top: $space-4;
+        }
+        &-sm-5{
+            margin-top: $space-5;
+        }
+        &-sm-6{
+            margin-top: $space-6;
+        }
+        &-sm-7{
+            margin-top: $space-7;
+        }
+        &-sm-8{
+            margin-top: $space-8;
+        }
+        &-sm-9{
+            margin-top: $space-9;
+        }
+        &-sm-10{
+            margin-top: $space-10;
+        }
+        &-sm-11{
+            margin-top: $space-11;
+        }
+        &-sm-12{
+            margin-top: $space-12;
+        }
+        &-sm-13{
+            margin-top: $space-13;
+        }
+        &-sm-14{
+            margin-top: $space-14;
+        }
+        &-sm-15{
+            margin-top: $space-15;
+        }
+        &-sm-16{
+            margin-top: $space-16;
+        }
+        &-sm-17{
+            margin-top: $space-17;
+        }
+        &-sm-18{
+            margin-top: $space-18;
+        }
+        &-sm-19{
+            margin-top: $space-19;
+        }
+        &-sm-20{
+            margin-top: $space-20;
+        }
+        &-sm-21{
+            margin-top: $space-21;
+        }
+        &-sm-22{
+            margin-top: $space-22;
+        }
+    }
+}
+.mb{
+    // margin-bottom
+    &-1{
+        margin-bottom: $space-1;
+    }
+    &-2{
+        margin-bottom: $space-2;
+    }
+    &-3{
+        margin-bottom: $space-3;
+    }
+    &-4{
+        margin-bottom: $space-4;
+    }
+    &-5{
+        margin-bottom: $space-5;
+    }
+    &-6{
+        margin-bottom: $space-6;
+    }
+    &-7{
+        margin-bottom: $space-7;
+    }
+    &-8{
+        margin-bottom: $space-8;
+    }
+    &-9{
+        margin-bottom: $space-9;
+    }
+    &-10{
+        margin-bottom: $space-10;
+    }
+    &-11{
+        margin-bottom: $space-11;
+    }
+    &-12{
+        margin-bottom: $space-12;
+    }
+    &-13{
+        margin-bottom: $space-13;
+    }
+    &-14{
+        margin-bottom: $space-14;
+    }
+    &-15{
+        margin-bottom: $space-15;
+    }
+    &-16{
+        margin-bottom: $space-16;
+    }
+    &-17{
+        margin-bottom: $space-17;
+    }
+    &-18{
+        margin-bottom: $space-18;
+    }
+    &-19{
+        margin-bottom: $space-19;
+    }
+    &-20{
+        margin-bottom: $space-20;
+    }
+    &-21{
+        margin-bottom: $space-21;
+    }
+    &-22{
+        margin-bottom: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            margin-bottom: $space-1;
+        }
+        &-md-2{
+            margin-bottom: $space-2;
+        }
+        &-md-3{
+            margin-bottom: $space-3;
+        }
+        &-md-4{
+            margin-bottom: $space-4;
+        }
+        &-md-5{
+            margin-bottom: $space-5;
+        }
+        &-md-6{
+            margin-bottom: $space-6;
+        }
+        &-md-7{
+            margin-bottom: $space-7;
+        }
+        &-md-8{
+            margin-bottom: $space-8;
+        }
+        &-md-9{
+            margin-bottom: $space-9;
+        }
+        &-md-10{
+            margin-bottom: $space-10;
+        }
+        &-md-11{
+            margin-bottom: $space-11;
+        }
+        &-md-12{
+            margin-bottom: $space-12;
+        }
+        &-md-13{
+            margin-bottom: $space-13;
+        }
+        &-md-14{
+            margin-bottom: $space-14;
+        }
+        &-md-15{
+            margin-bottom: $space-15;
+        }
+        &-md-16{
+            margin-bottom: $space-16;
+        }
+        &-md-17{
+            margin-bottom: $space-17;
+        }
+        &-md-18{
+            margin-bottom: $space-18;
+        }
+        &-md-19{
+            margin-bottom: $space-19;
+        }
+        &-md-20{
+            margin-bottom: $space-20;
+        }
+        &-md-21{
+            margin-bottom: $space-21;
+        }
+        &-md-22{
+            margin-bottom: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            margin-bottom: $space-1;
+        }
+        &-sm-2{
+            margin-bottom: $space-2;
+        }
+        &-sm-3{
+            margin-bottom: $space-3;
+        }
+        &-sm-4{
+            margin-bottom: $space-4;
+        }
+        &-sm-5{
+            margin-bottom: $space-5;
+        }
+        &-sm-6{
+            margin-bottom: $space-6;
+        }
+        &-sm-7{
+            margin-bottom: $space-7;
+        }
+        &-sm-8{
+            margin-bottom: $space-8;
+        }
+        &-sm-9{
+            margin-bottom: $space-9;
+        }
+        &-sm-10{
+            margin-bottom: $space-10;
+        }
+        &-sm-11{
+            margin-bottom: $space-11;
+        }
+        &-sm-12{
+            margin-bottom: $space-12;
+        }
+        &-sm-13{
+            margin-bottom: $space-13;
+        }
+        &-sm-14{
+            margin-bottom: $space-14;
+        }
+        &-sm-15{
+            margin-bottom: $space-15;
+        }
+        &-sm-16{
+            margin-bottom: $space-16;
+        }
+        &-sm-17{
+            margin-bottom: $space-17;
+        }
+        &-sm-18{
+            margin-bottom: $space-18;
+        }
+        &-sm-19{
+            margin-bottom: $space-19;
+        }
+        &-sm-20{
+            margin-bottom: $space-20;
+        }
+        &-sm-21{
+            margin-bottom: $space-21;
+        }
+        &-sm-22{
+            margin-bottom: $space-22;
+        }
+    }
+}
+.ml{
+    // margin-left
+    &-1{
+        margin-left: $space-1;
+    }
+    &-2{
+        margin-left: $space-2;
+    }
+    &-3{
+        margin-left: $space-3;
+    }
+    &-4{
+        margin-left: $space-4;
+    }
+    &-5{
+        margin-left: $space-5;
+    }
+    &-6{
+        margin-left: $space-6;
+    }
+    &-7{
+        margin-left: $space-7;
+    }
+    &-8{
+        margin-left: $space-8;
+    }
+    &-9{
+        margin-left: $space-9;
+    }
+    &-10{
+        margin-left: $space-10;
+    }
+    &-11{
+        margin-left: $space-11;
+    }
+    &-12{
+        margin-left: $space-12;
+    }
+    &-13{
+        margin-left: $space-13;
+    }
+    &-14{
+        margin-left: $space-14;
+    }
+    &-15{
+        margin-left: $space-15;
+    }
+    &-16{
+        margin-left: $space-16;
+    }
+    &-17{
+        margin-left: $space-17;
+    }
+    &-18{
+        margin-left: $space-18;
+    }
+    &-19{
+        margin-left: $space-19;
+    }
+    &-20{
+        margin-left: $space-20;
+    }
+    &-21{
+        margin-left: $space-21;
+    }
+    &-22{
+        margin-left: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            margin-left: $space-1;
+        }
+        &-md-2{
+            margin-left: $space-2;
+        }
+        &-md-3{
+            margin-left: $space-3;
+        }
+        &-md-4{
+            margin-left: $space-4;
+        }
+        &-md-5{
+            margin-left: $space-5;
+        }
+        &-md-6{
+            margin-left: $space-6;
+        }
+        &-md-7{
+            margin-left: $space-7;
+        }
+        &-md-8{
+            margin-left: $space-8;
+        }
+        &-md-9{
+            margin-left: $space-9;
+        }
+        &-md-10{
+            margin-left: $space-10;
+        }
+        &-md-11{
+            margin-left: $space-11;
+        }
+        &-md-12{
+            margin-left: $space-12;
+        }
+        &-md-13{
+            margin-left: $space-13;
+        }
+        &-md-14{
+            margin-left: $space-14;
+        }
+        &-md-15{
+            margin-left: $space-15;
+        }
+        &-md-16{
+            margin-left: $space-16;
+        }
+        &-md-17{
+            margin-left: $space-17;
+        }
+        &-md-18{
+            margin-left: $space-18;
+        }
+        &-md-19{
+            margin-left: $space-19;
+        }
+        &-md-20{
+            margin-left: $space-20;
+        }
+        &-md-21{
+            margin-left: $space-21;
+        }
+        &-md-22{
+            margin-left: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            margin-left: $space-1;
+        }
+        &-sm-2{
+            margin-left: $space-2;
+        }
+        &-sm-3{
+            margin-left: $space-3;
+        }
+        &-sm-4{
+            margin-left: $space-4;
+        }
+        &-sm-5{
+            margin-left: $space-5;
+        }
+        &-sm-6{
+            margin-left: $space-6;
+        }
+        &-sm-7{
+            margin-left: $space-7;
+        }
+        &-sm-8{
+            margin-left: $space-8;
+        }
+        &-sm-9{
+            margin-left: $space-9;
+        }
+        &-sm-10{
+            margin-left: $space-10;
+        }
+        &-sm-11{
+            margin-left: $space-11;
+        }
+        &-sm-12{
+            margin-left: $space-12;
+        }
+        &-sm-13{
+            margin-left: $space-13;
+        }
+        &-sm-14{
+            margin-left: $space-14;
+        }
+        &-sm-15{
+            margin-left: $space-15;
+        }
+        &-sm-16{
+            margin-left: $space-16;
+        }
+        &-sm-17{
+            margin-left: $space-17;
+        }
+        &-sm-18{
+            margin-left: $space-18;
+        }
+        &-sm-19{
+            margin-left: $space-19;
+        }
+        &-sm-20{
+            margin-left: $space-20;
+        }
+        &-sm-21{
+            margin-left: $space-21;
+        }
+        &-sm-22{
+            margin-left: $space-22;
+        }
+    }
+}
+.mr{
+    // margin-right
+    &-1{
+        margin-right: $space-1;
+    }
+    &-2{
+        margin-right: $space-2;
+    }
+    &-3{
+        margin-right: $space-3;
+    }
+    &-4{
+        margin-right: $space-4;
+    }
+    &-5{
+        margin-right: $space-5;
+    }
+    &-6{
+        margin-right: $space-6;
+    }
+    &-7{
+        margin-right: $space-7;
+    }
+    &-8{
+        margin-right: $space-8;
+    }
+    &-9{
+        margin-right: $space-9;
+    }
+    &-10{
+        margin-right: $space-10;
+    }
+    &-11{
+        margin-right: $space-11;
+    }
+    &-12{
+        margin-right: $space-12;
+    }
+    &-13{
+        margin-right: $space-13;
+    }
+    &-14{
+        margin-right: $space-14;
+    }
+    &-15{
+        margin-right: $space-15;
+    }
+    &-16{
+        margin-right: $space-16;
+    }
+    &-17{
+        margin-right: $space-17;
+    }
+    &-18{
+        margin-right: $space-18;
+    }
+    &-19{
+        margin-right: $space-19;
+    }
+    &-20{
+        margin-right: $space-20;
+    }
+    &-21{
+        margin-right: $space-21;
+    }
+    &-22{
+        margin-right: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            margin-right: $space-1;
+        }
+        &-md-2{
+            margin-right: $space-2;
+        }
+        &-md-3{
+            margin-right: $space-3;
+        }
+        &-md-4{
+            margin-right: $space-4;
+        }
+        &-md-5{
+            margin-right: $space-5;
+        }
+        &-md-6{
+            margin-right: $space-6;
+        }
+        &-md-7{
+            margin-right: $space-7;
+        }
+        &-md-8{
+            margin-right: $space-8;
+        }
+        &-md-9{
+            margin-right: $space-9;
+        }
+        &-md-10{
+            margin-right: $space-10;
+        }
+        &-md-11{
+            margin-right: $space-11;
+        }
+        &-md-12{
+            margin-right: $space-12;
+        }
+        &-md-13{
+            margin-right: $space-13;
+        }
+        &-md-14{
+            margin-right: $space-14;
+        }
+        &-md-15{
+            margin-right: $space-15;
+        }
+        &-md-16{
+            margin-right: $space-16;
+        }
+        &-md-17{
+            margin-right: $space-17;
+        }
+        &-md-18{
+            margin-right: $space-18;
+        }
+        &-md-19{
+            margin-right: $space-19;
+        }
+        &-md-20{
+            margin-right: $space-20;
+        }
+        &-md-21{
+            margin-right: $space-21;
+        }
+        &-md-22{
+            margin-right: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            margin-right: $space-1;
+        }
+        &-sm-2{
+            margin-right: $space-2;
+        }
+        &-sm-3{
+            margin-right: $space-3;
+        }
+        &-sm-4{
+            margin-right: $space-4;
+        }
+        &-sm-5{
+            margin-right: $space-5;
+        }
+        &-sm-6{
+            margin-right: $space-6;
+        }
+        &-sm-7{
+            margin-right: $space-7;
+        }
+        &-sm-8{
+            margin-right: $space-8;
+        }
+        &-sm-9{
+            margin-right: $space-9;
+        }
+        &-sm-10{
+            margin-right: $space-10;
+        }
+        &-sm-11{
+            margin-right: $space-11;
+        }
+        &-sm-12{
+            margin-right: $space-12;
+        }
+        &-sm-13{
+            margin-right: $space-13;
+        }
+        &-sm-14{
+            margin-right: $space-14;
+        }
+        &-sm-15{
+            margin-right: $space-15;
+        }
+        &-sm-16{
+            margin-right: $space-16;
+        }
+        &-sm-17{
+            margin-right: $space-17;
+        }
+        &-sm-18{
+            margin-right: $space-18;
+        }
+        &-sm-19{
+            margin-right: $space-19;
+        }
+        &-sm-20{
+            margin-right: $space-20;
+        }
+        &-sm-21{
+            margin-right: $space-21;
+        }
+        &-sm-22{
+            margin-right: $space-22;
+        }
+    }
+}
+// padding
+.pt{
+    // padding-top
+    &-1{
+        padding-top: $space-1;
+    }
+    &-2{
+        padding-top: $space-2;
+    }
+    &-3{
+        padding-top: $space-3;
+    }
+    &-4{
+        padding-top: $space-4;
+    }
+    &-5{
+        padding-top: $space-5;
+    }
+    &-6{
+        padding-top: $space-6;
+    }
+    &-7{
+        padding-top: $space-7;
+    }
+    &-8{
+        padding-top: $space-8;
+    }
+    &-9{
+        padding-top: $space-9;
+    }
+    &-10{
+        padding-top: $space-10;
+    }
+    &-11{
+        padding-top: $space-11;
+    }
+    &-12{
+        padding-top: $space-12;
+    }
+    &-13{
+        padding-top: $space-13;
+    }
+    &-14{
+        padding-top: $space-14;
+    }
+    &-15{
+        padding-top: $space-15;
+    }
+    &-16{
+        padding-top: $space-16;
+    }
+    &-17{
+        padding-top: $space-17;
+    }
+    &-18{
+        padding-top: $space-18;
+    }
+    &-19{
+        padding-top: $space-19;
+    }
+    &-20{
+        padding-top: $space-20;
+    }
+    &-21{
+        padding-top: $space-21;
+    }
+    &-22{
+        padding-top: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            padding-top: $space-1;
+        }
+        &-md-2{
+            padding-top: $space-2;
+        }
+        &-md-3{
+            padding-top: $space-3;
+        }
+        &-md-4{
+            padding-top: $space-4;
+        }
+        &-md-5{
+            padding-top: $space-5;
+        }
+        &-md-6{
+            padding-top: $space-6;
+        }
+        &-md-7{
+            padding-top: $space-7;
+        }
+        &-md-8{
+            padding-top: $space-8;
+        }
+        &-md-9{
+            padding-top: $space-9;
+        }
+        &-md-10{
+            padding-top: $space-10;
+        }
+        &-md-11{
+            padding-top: $space-11;
+        }
+        &-md-12{
+            padding-top: $space-12;
+        }
+        &-md-13{
+            padding-top: $space-13;
+        }
+        &-md-14{
+            padding-top: $space-14;
+        }
+        &-md-15{
+            padding-top: $space-15;
+        }
+        &-md-16{
+            padding-top: $space-16;
+        }
+        &-md-17{
+            padding-top: $space-17;
+        }
+        &-md-18{
+            padding-top: $space-18;
+        }
+        &-md-19{
+            padding-top: $space-19;
+        }
+        &-md-20{
+            padding-top: $space-20;
+        }
+        &-md-21{
+            padding-top: $space-21;
+        }
+        &-md-22{
+            padding-top: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            padding-top: $space-1;
+        }
+        &-sm-2{
+            padding-top: $space-2;
+        }
+        &-sm-3{
+            padding-top: $space-3;
+        }
+        &-sm-4{
+            padding-top: $space-4;
+        }
+        &-sm-5{
+            padding-top: $space-5;
+        }
+        &-sm-6{
+            padding-top: $space-6;
+        }
+        &-sm-7{
+            padding-top: $space-7;
+        }
+        &-sm-8{
+            padding-top: $space-8;
+        }
+        &-sm-9{
+            padding-top: $space-9;
+        }
+        &-sm-10{
+            padding-top: $space-10;
+        }
+        &-sm-11{
+            padding-top: $space-11;
+        }
+        &-sm-12{
+            padding-top: $space-12;
+        }
+        &-sm-13{
+            padding-top: $space-13;
+        }
+        &-sm-14{
+            padding-top: $space-14;
+        }
+        &-sm-15{
+            padding-top: $space-15;
+        }
+        &-sm-16{
+            padding-top: $space-16;
+        }
+        &-sm-17{
+            padding-top: $space-17;
+        }
+        &-sm-18{
+            padding-top: $space-18;
+        }
+        &-sm-19{
+            padding-top: $space-19;
+        }
+        &-sm-20{
+            padding-top: $space-20;
+        }
+        &-sm-21{
+            padding-top: $space-21;
+        }
+        &-sm-22{
+            padding-top: $space-22;
+        }
+    }
+}
+.pb{
+    // padding-bottom
+    &-1{
+        padding-bottom: $space-1;
+    }
+    &-2{
+        padding-bottom: $space-2;
+    }
+    &-3{
+        padding-bottom: $space-3;
+    }
+    &-4{
+        padding-bottom: $space-4;
+    }
+    &-5{
+        padding-bottom: $space-5;
+    }
+    &-6{
+        padding-bottom: $space-6;
+    }
+    &-7{
+        padding-bottom: $space-7;
+    }
+    &-8{
+        padding-bottom: $space-8;
+    }
+    &-9{
+        padding-bottom: $space-9;
+    }
+    &-10{
+        padding-bottom: $space-10;
+    }
+    &-11{
+        padding-bottom: $space-11;
+    }
+    &-12{
+        padding-bottom: $space-12;
+    }
+    &-13{
+        padding-bottom: $space-13;
+    }
+    &-14{
+        padding-bottom: $space-14;
+    }
+    &-15{
+        padding-bottom: $space-15;
+    }
+    &-16{
+        padding-bottom: $space-16;
+    }
+    &-17{
+        padding-bottom: $space-17;
+    }
+    &-18{
+        padding-bottom: $space-18;
+    }
+    &-19{
+        padding-bottom: $space-19;
+    }
+    &-20{
+        padding-bottom: $space-20;
+    }
+    &-21{
+        padding-bottom: $space-21;
+    }
+    &-22{
+        padding-bottom: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            padding-bottom: $space-1;
+        }
+        &-md-2{
+            padding-bottom: $space-2;
+        }
+        &-md-3{
+            padding-bottom: $space-3;
+        }
+        &-md-4{
+            padding-bottom: $space-4;
+        }
+        &-md-5{
+            padding-bottom: $space-5;
+        }
+        &-md-6{
+            padding-bottom: $space-6;
+        }
+        &-md-7{
+            padding-bottom: $space-7;
+        }
+        &-md-8{
+            padding-bottom: $space-8;
+        }
+        &-md-9{
+            padding-bottom: $space-9;
+        }
+        &-md-10{
+            padding-bottom: $space-10;
+        }
+        &-md-11{
+            padding-bottom: $space-11;
+        }
+        &-md-12{
+            padding-bottom: $space-12;
+        }
+        &-md-13{
+            padding-bottom: $space-13;
+        }
+        &-md-14{
+            padding-bottom: $space-14;
+        }
+        &-md-15{
+            padding-bottom: $space-15;
+        }
+        &-md-16{
+            padding-bottom: $space-16;
+        }
+        &-md-17{
+            padding-bottom: $space-17;
+        }
+        &-md-18{
+            padding-bottom: $space-18;
+        }
+        &-md-19{
+            padding-bottom: $space-19;
+        }
+        &-md-20{
+            padding-bottom: $space-20;
+        }
+        &-md-21{
+            padding-bottom: $space-21;
+        }
+        &-md-22{
+            padding-bottom: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            padding-bottom: $space-1;
+        }
+        &-sm-2{
+            padding-bottom: $space-2;
+        }
+        &-sm-3{
+            padding-bottom: $space-3;
+        }
+        &-sm-4{
+            padding-bottom: $space-4;
+        }
+        &-sm-5{
+            padding-bottom: $space-5;
+        }
+        &-sm-6{
+            padding-bottom: $space-6;
+        }
+        &-sm-7{
+            padding-bottom: $space-7;
+        }
+        &-sm-8{
+            padding-bottom: $space-8;
+        }
+        &-sm-9{
+            padding-bottom: $space-9;
+        }
+        &-sm-10{
+            padding-bottom: $space-10;
+        }
+        &-sm-11{
+            padding-bottom: $space-11;
+        }
+        &-sm-12{
+            padding-bottom: $space-12;
+        }
+        &-sm-13{
+            padding-bottom: $space-13;
+        }
+        &-sm-14{
+            padding-bottom: $space-14;
+        }
+        &-sm-15{
+            padding-bottom: $space-15;
+        }
+        &-sm-16{
+            padding-bottom: $space-16;
+        }
+        &-sm-17{
+            padding-bottom: $space-17;
+        }
+        &-sm-18{
+            padding-bottom: $space-18;
+        }
+        &-sm-19{
+            padding-bottom: $space-19;
+        }
+        &-sm-20{
+            padding-bottom: $space-20;
+        }
+        &-sm-21{
+            padding-bottom: $space-21;
+        }
+        &-sm-22{
+            padding-bottom: $space-22;
+        }
+    }
+}
+.pl{
+    // padding-left
+    &-1{
+        padding-left: $space-1;
+    }
+    &-2{
+        padding-left: $space-2;
+    }
+    &-3{
+        padding-left: $space-3;
+    }
+    &-4{
+        padding-left: $space-4;
+    }
+    &-5{
+        padding-left: $space-5;
+    }
+    &-6{
+        padding-left: $space-6;
+    }
+    &-7{
+        padding-left: $space-7;
+    }
+    &-8{
+        padding-left: $space-8;
+    }
+    &-9{
+        padding-left: $space-9;
+    }
+    &-10{
+        padding-left: $space-10;
+    }
+    &-11{
+        padding-left: $space-11;
+    }
+    &-12{
+        padding-left: $space-12;
+    }
+    &-13{
+        padding-left: $space-13;
+    }
+    &-14{
+        padding-left: $space-14;
+    }
+    &-15{
+        padding-left: $space-15;
+    }
+    &-16{
+        padding-left: $space-16;
+    }
+    &-17{
+        padding-left: $space-17;
+    }
+    &-18{
+        padding-left: $space-18;
+    }
+    &-19{
+        padding-left: $space-19;
+    }
+    &-20{
+        padding-left: $space-20;
+    }
+    &-21{
+        padding-left: $space-21;
+    }
+    &-22{
+        padding-left: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            padding-left: $space-1;
+        }
+        &-md-2{
+            padding-left: $space-2;
+        }
+        &-md-3{
+            padding-left: $space-3;
+        }
+        &-md-4{
+            padding-left: $space-4;
+        }
+        &-md-5{
+            padding-left: $space-5;
+        }
+        &-md-6{
+            padding-left: $space-6;
+        }
+        &-md-7{
+            padding-left: $space-7;
+        }
+        &-md-8{
+            padding-left: $space-8;
+        }
+        &-md-9{
+            padding-left: $space-9;
+        }
+        &-md-10{
+            padding-left: $space-10;
+        }
+        &-md-11{
+            padding-left: $space-11;
+        }
+        &-md-12{
+            padding-left: $space-12;
+        }
+        &-md-13{
+            padding-left: $space-13;
+        }
+        &-md-14{
+            padding-left: $space-14;
+        }
+        &-md-15{
+            padding-left: $space-15;
+        }
+        &-md-16{
+            padding-left: $space-16;
+        }
+        &-md-17{
+            padding-left: $space-17;
+        }
+        &-md-18{
+            padding-left: $space-18;
+        }
+        &-md-19{
+            padding-left: $space-19;
+        }
+        &-md-20{
+            padding-left: $space-20;
+        }
+        &-md-21{
+            padding-left: $space-21;
+        }
+        &-md-22{
+            padding-left: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            padding-left: $space-1;
+        }
+        &-sm-2{
+            padding-left: $space-2;
+        }
+        &-sm-3{
+            padding-left: $space-3;
+        }
+        &-sm-4{
+            padding-left: $space-4;
+        }
+        &-sm-5{
+            padding-left: $space-5;
+        }
+        &-sm-6{
+            padding-left: $space-6;
+        }
+        &-sm-7{
+            padding-left: $space-7;
+        }
+        &-sm-8{
+            padding-left: $space-8;
+        }
+        &-sm-9{
+            padding-left: $space-9;
+        }
+        &-sm-10{
+            padding-left: $space-10;
+        }
+        &-sm-11{
+            padding-left: $space-11;
+        }
+        &-sm-12{
+            padding-left: $space-12;
+        }
+        &-sm-13{
+            padding-left: $space-13;
+        }
+        &-sm-14{
+            padding-left: $space-14;
+        }
+        &-sm-15{
+            padding-left: $space-15;
+        }
+        &-sm-16{
+            padding-left: $space-16;
+        }
+        &-sm-17{
+            padding-left: $space-17;
+        }
+        &-sm-18{
+            padding-left: $space-18;
+        }
+        &-sm-19{
+            padding-left: $space-19;
+        }
+        &-sm-20{
+            padding-left: $space-20;
+        }
+        &-sm-21{
+            padding-left: $space-21;
+        }
+        &-sm-22{
+            padding-left: $space-22;
+        }
+    }
+}
+.pr{
+    // padding-right
+    &-1{
+        padding-right: $space-1;
+    }
+    &-2{
+        padding-right: $space-2;
+    }
+    &-3{
+        padding-right: $space-3;
+    }
+    &-4{
+        padding-right: $space-4;
+    }
+    &-5{
+        padding-right: $space-5;
+    }
+    &-6{
+        padding-right: $space-6;
+    }
+    &-7{
+        padding-right: $space-7;
+    }
+    &-8{
+        padding-right: $space-8;
+    }
+    &-9{
+        padding-right: $space-9;
+    }
+    &-10{
+        padding-right: $space-10;
+    }
+    &-11{
+        padding-right: $space-11;
+    }
+    &-12{
+        padding-right: $space-12;
+    }
+    &-13{
+        padding-right: $space-13;
+    }
+    &-14{
+        padding-right: $space-14;
+    }
+    &-15{
+        padding-right: $space-15;
+    }
+    &-16{
+        padding-right: $space-16;
+    }
+    &-17{
+        padding-right: $space-17;
+    }
+    &-18{
+        padding-right: $space-18;
+    }
+    &-19{
+        padding-right: $space-19;
+    }
+    &-20{
+        padding-right: $space-20;
+    }
+    &-21{
+        padding-right: $space-21;
+    }
+    &-22{
+        padding-right: $space-22;
+    }
+    @include pad{
+        &-md-1{
+            padding-right: $space-1;
+        }
+        &-md-2{
+            padding-right: $space-2;
+        }
+        &-md-3{
+            padding-right: $space-3;
+        }
+        &-md-4{
+            padding-right: $space-4;
+        }
+        &-md-5{
+            padding-right: $space-5;
+        }
+        &-md-6{
+            padding-right: $space-6;
+        }
+        &-md-7{
+            padding-right: $space-7;
+        }
+        &-md-8{
+            padding-right: $space-8;
+        }
+        &-md-9{
+            padding-right: $space-9;
+        }
+        &-md-10{
+            padding-right: $space-10;
+        }
+        &-md-11{
+            padding-right: $space-11;
+        }
+        &-md-12{
+            padding-right: $space-12;
+        }
+        &-md-13{
+            padding-right: $space-13;
+        }
+        &-md-14{
+            padding-right: $space-14;
+        }
+        &-md-15{
+            padding-right: $space-15;
+        }
+        &-md-16{
+            padding-right: $space-16;
+        }
+        &-md-17{
+            padding-right: $space-17;
+        }
+        &-md-18{
+            padding-right: $space-18;
+        }
+        &-md-19{
+            padding-right: $space-19;
+        }
+        &-md-20{
+            padding-right: $space-20;
+        }
+        &-md-21{
+            padding-right: $space-21;
+        }
+        &-md-22{
+            padding-right: $space-22;
+        }
+    }
+    @include mobile{
+        &-sm-1{
+            padding-right: $space-1;
+        }
+        &-sm-2{
+            padding-right: $space-2;
+        }
+        &-sm-3{
+            padding-right: $space-3;
+        }
+        &-sm-4{
+            padding-right: $space-4;
+        }
+        &-sm-5{
+            padding-right: $space-5;
+        }
+        &-sm-6{
+            padding-right: $space-6;
+        }
+        &-sm-7{
+            padding-right: $space-7;
+        }
+        &-sm-8{
+            padding-right: $space-8;
+        }
+        &-sm-9{
+            padding-right: $space-9;
+        }
+        &-sm-10{
+            padding-right: $space-10;
+        }
+        &-sm-11{
+            padding-right: $space-11;
+        }
+        &-sm-12{
+            padding-right: $space-12;
+        }
+        &-sm-13{
+            padding-right: $space-13;
+        }
+        &-sm-14{
+            padding-right: $space-14;
+        }
+        &-sm-15{
+            padding-right: $space-15;
+        }
+        &-sm-16{
+            padding-right: $space-16;
+        }
+        &-sm-17{
+            padding-right: $space-17;
+        }
+        &-sm-18{
+            padding-right: $space-18;
+        }
+        &-sm-19{
+            padding-right: $space-19;
+        }
+        &-sm-20{
+            padding-right: $space-20;
+        }
+        &-sm-21{
+            padding-right: $space-21;
+        }
+        &-sm-22{
+            padding-right: $space-22;
+        }
+    }
+}

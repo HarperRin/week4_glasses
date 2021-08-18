@@ -1,0 +1,82 @@
+
+// header
+.header{
+    padding:30px 88px;
+    .logo{
+        background-image: url(../images/logo.png);
+        width: 80px;
+        height: 48px;
+        display: block;
+        background-size: cover;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    @include pad{
+        padding: 30px 39px;
+    }
+    @include mobile{
+        padding: 0;
+        flex-direction: column;
+        .logo{
+            width: 48px;
+            height: 30px;
+            margin: 10px 0;
+        }
+        .navbar{
+            width: 100%;
+            &-item{
+                width: 50%;
+                padding: 8px 0;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+
+// footer
+.footer{
+    .info-share, .contact-list{
+        img{
+            width: 48px;
+        }
+    }
+    @include pad{
+        padding: 0 40px;
+        .info-share, .contact-list{
+            img{
+                width: 24px;
+            }
+        }
+    }
+    @include mobile{
+        padding: 0;
+        .info-nav{
+            padding-bottom: 0;
+            display: none;
+        }
+        .footer-info{
+            padding: 0;
+        }
+        .contact-list{
+            img{
+                width: 20px;
+            }
+        }
+        .info-share{
+            img{
+                width: 24px;
+            }
+        }
+        .copyright{
+            width: 100%;
+            .copyright-info{
+                display: block;
+                width: 100%;
+            }
+        }
+        .copyright-info-list{
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+// title
+.location{
+    &-title{
+        border-left: 8px solid $secondary;
+        padding-left: 16px;
+        @include pad{
+            border-left: 4px solid $secondary;
+        }
+    }
+}
+// select
+.select{
+    &-area-control, &-branch-control{
+        width: 28%;
+        border: 1px solid $bluegray-200;
+        opacity: 75%;
+    }
+    @include pad{
+        &-area-control{
+            width: 35%;
+        }
+        &-branch-control{
+            width: 32%;
+        }
+    }
+    @include mobile{
+        &-area-control, &-branch-control{
+            flex-grow: 1;
+        }
+    }
+}
+// card
+.location{
+    &-area-item{
+        width: 31%;
+    }
+    &-area-title, &-areainfo-list, &-branch-title, &-branchinfo-list{
+        border: 1px solid $bluegray-200;
+    }
+    &-areainfo-btn{
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        cursor: pointer;
+    }
+    &-areainfo-icon{
+        color: $bluegray-500;
+    }
+    &-branchinfo-content{
+        width: 39%;
+    }
+    &-branch-map{
+        width: 57%;
+    }
+    @include pad{
+        &-area-list{
+            justify-content: space-between;
+        }
+        &-area-item{
+            margin-right: 0;
+            width: 48%;
+        }
+        &-areainfo-icon, &-branchinfo-icon{
+            padding-bottom: 0;
+            width: 24px;
+            height: 24px;
+        }
+        &-branch-title{
+            font-weight: 700;
+        }
+        &-branchinfo-content{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        &-branchinfo-pic{
+            width: 48%;
+            height: 164px;
+            object-fit: cover;
+        }
+        &-branch-map{
+            width: 100%;
+        }
+    }
+    @include mobile{
+        &-area-item{
+            width: 100%;
+        }
+        &-branchinfo{
+            margin-right: 0;
+        }
+        &-branchinfo-content{
+            display: block;
+            margin-bottom: 16px;
+        }
+        &-branchinfo-pic{
+            width: 100%;
+        }
+    }
+}
